@@ -1,0 +1,18 @@
+@import "./base/base";
+// Sections
+@import "./section/section-header";
+@import "./section/section-main";
+@import "./section/footer";
+// Blocks
+@import "./block/social";
+@import "./block/title";
+@import "./block/button";
+@import "./block/article";
+@import "./block/info";
+@import "./block/slider";
+@import "./block/posts";
+@import "./block/nav";
+
+// Article
+@import "./block/form";
+@import "./block/comments";

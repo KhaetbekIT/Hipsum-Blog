@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Главное страница - Hipsum Blog
+
+        //- Fonts
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:900|Montserrat:300,300i,400,400i,500,700|Playfair+Display&display=swap&subset=cyrillic" rel="stylesheet">
+
+        //- CSS
+
+        link(rel="stylesheet", href="./css/main.css")
+        
+    body
+        include ./../sections/header.pug
+        .container
+            main.section-main
+                .main__left
+                    include ./../sections/article.pug
+                    include ./../block/pagination.pug
+                .main__right
+                    include ./../block/posts.pug
+        
+        include ./../sections/footer.pug
+        

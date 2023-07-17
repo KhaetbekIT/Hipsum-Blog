@@ -1,0 +1,27 @@
+.pagination {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider {
+    display: flex;
+    &>*:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+.slid__article {
+    font-size: 18px;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    &.active,
+    &:hover {
+        color: rgb(202, 77, 81);
+    }
+}

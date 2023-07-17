@@ -1,0 +1,22 @@
+.section-footer {
+    background-color: #dee1e6;
+}
+
+.footer__nav {
+    padding-top: 60px;
+    display: flex;
+    padding-bottom: 90px;
+    &>*+* {
+        margin-left: 130px;
+    }
+    align-items: flex-start;
+}
+
+.copyright {
+    background-color: #e9ebed;
+    font-size: 14px;
+    color: rgb(182, 185, 188);
+    line-height: 1.2;
+    text-align: center;
+    padding: ((60px - 14px)/2) 0;
+}

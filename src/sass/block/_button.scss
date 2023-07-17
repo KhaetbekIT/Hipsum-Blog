@@ -1,0 +1,48 @@
+.form {
+    padding-bottom: 80px;
+    .button {
+        border-radius: 6px;
+        background-color: rgb(67, 86, 113);
+        font-size: 16px;
+        text-align: center;
+        border: none;
+        outline: none;
+    }
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: rgb(67, 86, 113);
+    height: 38px;
+    padding: 0 40px;
+    border-radius: 19px;
+    line-height: 1;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    cursor: pointer;
+    &.button--rounded {
+        border-radius: 6px;
+        height: 44px;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        text-align: center;
+        display: inline-block;
+        padding: ((44px - 12px)/2) 40px;
+    }
+}
+
+.pagination__button {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    border: none;
+    outline: none;
+}

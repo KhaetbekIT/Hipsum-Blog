@@ -1,0 +1,17 @@
+.section-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.main__left {
+    width: 870px;
+}
+
+.main__right {
+    width: 270px;
+    &>*+* {
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,68 @@
+.title {
+    font-size: 38px;
+    font-family: 'Exo 2', sans-serif;
+    color: rgb(31, 31, 31);
+    line-height: 1.2;
+}
+
+.article__title,
+.inner-article {
+    .title {
+        font-size: 33px;
+        font-family: 'Playfair Display', serif;
+        color: rgb(31, 31, 31);
+        line-height: 1.2;
+        text-align: center;
+    }
+}
+
+.recent,
+.widget {
+    .title {
+        border-width: 1px;
+        border-color: rgb(222, 225, 230);
+        border-style: solid;
+        border-radius: 4px;
+        text-align: center;
+        padding: ((70px - 18px)/2) 0;
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(31, 31, 31);
+        font-weight: bold;
+        line-height: 1.2;
+    }
+}
+
+.recent__desc,
+.widget__desc {
+    .title {
+        padding: 25px 0;
+        font-size: 18px;
+        font-family: 'Playfair Display', serif;
+        color: rgb(31, 31, 31);
+        line-height: 1.2;
+        text-align: center;
+        border: none;
+        outline: none;
+    }
+}
+
+.form {
+    .title {
+        font-size: 33px;
+        font-family: 'Playfair Display', serif;
+        color: rgb(31, 31, 31);
+        line-height: 1.2;
+        text-align: left;
+    }
+}
+
+.other-comment {
+    .title {
+        font-size: 33px;
+        font-family: 'Playfair Display', serif;
+        color: rgb(31, 31, 31);
+        line-height: 1.2;
+        text-align: left;
+    }
+}

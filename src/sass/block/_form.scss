@@ -1,0 +1,56 @@
+.form {
+    width: 830px;
+    margin-right: auto;
+    margin-left: auto;
+
+    &>*+* {
+        margin-top: 20px;
+    }
+}
+
+.comment,
+.input {
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(84, 94, 102);
+    line-height: 1.75;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    background-color: rgb(234, 238, 241);
+    border-radius: 10px;
+    border: 2px solid transparent;
+
+    &:active,
+    &:hover {
+        border: 2px solid rgb(159, 184, 202);
+    }
+}
+
+.comment {
+    width: 100%;
+    resize: vertical;
+}
+
+.form__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    &:nth-child(1) {
+        width: 230px;
+    }
+
+    &:nth-child(2) {
+        width: 275px;
+    }
+
+    &:nth-child(3) {
+        width: 300px;
+    }
+}
+
+.input::placeholder {
+    color: rgba(84, 94, 102, 0.502);
+}

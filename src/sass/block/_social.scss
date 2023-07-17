@@ -1,0 +1,21 @@
+.social__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 40px;
+}
+
+.article__social {
+    display: flex;
+    &>* {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 40px;
+    }
+    &>*+* {
+        margin-left: 25px;
+    }
+}

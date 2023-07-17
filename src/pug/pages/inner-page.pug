@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Страница статья - Hipsum Blog
+
+        //- Fonts
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:900|Montserrat:300,300i,400,400i,500,700|Playfair+Display&display=swap&subset=cyrillic" rel="stylesheet">
+
+        link(rel="stylesheet", href="./libs/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+
+        //- CSS
+        link(rel="stylesheet", href="./css/article.css")
+        
+    body
+        include ./../sections/header.pug
+        .container
+            include ./../sections/inner-page.pug
+            include ./../block/form.pug
+            include ./../block/other-comment.pug
+
+        include ./../sections/footer.pug
+
+        //- CSS
+        link(rel="stylesheet", href="./css/main.css")
